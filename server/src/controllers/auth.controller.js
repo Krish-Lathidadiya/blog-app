@@ -130,5 +130,4 @@ const google = async (req, res, next) => {
   }
 };
 
-
 module.exports = { signup, signin, signout, google };

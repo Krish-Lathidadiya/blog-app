@@ -83,7 +83,7 @@ function DashPosts() {
               <Table.HeadCell>Edit</Table.HeadCell>
             </Table.Head>
             {posts.map((post, index) => (
-              <Table.Body key={post._id || index} className="divide-y">
+              <Table.Body key={post._id || index} className="divide-y border-t">
                 <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                   <Table.Cell>
                     {new Date(post.updatedAt).toLocaleDateString()}
