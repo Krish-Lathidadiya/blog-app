@@ -61,7 +61,7 @@ export const getUsers = async (newFilter) => {
   }
 
   try {
-    const response = await fetch(`/server/api/user?${queryString}`, {
+    const response = await fetch(`/server/user?${queryString}`, {
       method: "GET",
     });
 

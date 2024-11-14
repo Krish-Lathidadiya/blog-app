@@ -49,7 +49,7 @@ export default function DashProfile() {
     updatedFormData.append("email", formData.email);
     updatedFormData.append("password", formData.password);
     if (imageFile) {
-      updatedFormData.append("profilePicture", imageFile); 
+      updatedFormData.append("profilePicture", imageFile);
     }
 
     try {

@@ -13,10 +13,7 @@ import { BsFacebook, BsGithub, BsTwitter, BsInstagram } from "react-icons/bs";
 
 function FooterCom() {
   return (
-    <Footer
-      container
-      className="border border-t-8 border-teal-500 font-semibold"
-    >
+    <Footer container className="border border-t-8 border-teal-500 font-semibold">
       <div className="w-full max-w-7xl mx-auto p-6">
         <div>
           <Link
@@ -38,10 +35,14 @@ function FooterCom() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                100 JS Project
+                  100 JS Project
               </FooterLink>
-              <FooterLink href="#" target="_blank" rel="noopener noreferrer">
-                Krish's Blog
+              <FooterLink
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              Krish's Blog
               </FooterLink>
             </FooterLinkGroup>
           </div>
